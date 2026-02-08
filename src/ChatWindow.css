@@ -1,0 +1,54 @@
+.chatWindow {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  padding: 16px 24px;
+  background: rgba(2, 6, 23, 0.7);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.brand h2 {
+  color: #38bdf8;
+  font-weight: 700;
+}
+
+.brand p {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.chatInput {
+  padding: 18px;
+  background: rgba(2, 6, 23, 0.8);
+}
+
+.inputBox {
+  display: flex;
+  background: rgba(17, 24, 39, 0.9);
+  padding: 14px;
+  border-radius: 14px;
+}
+
+.inputBox input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+#submit {
+  color: #38bdf8;
+  cursor: pointer;
+  font-size: 18px;
+}
+.loaderContainer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
